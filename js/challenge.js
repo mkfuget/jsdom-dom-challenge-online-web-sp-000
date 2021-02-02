@@ -1,6 +1,7 @@
 function incrementCounter()
 {
-  document.getElementById('counter').innerHTML += 1;
+  const currentCount = document.getElementById('counter').innerHTML
+  document.getElementById('counter').innerHTML = parseInt(currentCount) + 1
 }
 
 document.getElementById("plus").addEventListener("click", function() {
