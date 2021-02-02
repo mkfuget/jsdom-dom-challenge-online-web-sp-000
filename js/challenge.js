@@ -1,4 +1,4 @@
-const toggleCounter = "on"
+let toggleCounter = "on"
 
 function incrementCounter()
 {
