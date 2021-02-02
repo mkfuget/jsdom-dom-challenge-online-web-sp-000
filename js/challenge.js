@@ -18,4 +18,4 @@ document.getElementById("plus").addEventListener("click", function() {
 document.getElementById("minus").addEventListener("click", function() {
   decrementCounter()
 });
-setTimeout(incrementCounter, 1000);
+setInterval(incrementCounter, 1000);
