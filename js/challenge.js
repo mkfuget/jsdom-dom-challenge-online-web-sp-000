@@ -20,6 +20,18 @@ document.getElementById("plus").addEventListener("click", function() {
 document.getElementById("minus").addEventListener("click", function() {
   decrementCounter()
 });
+document.getElementById("pause").addEventListener("click", function() {
+  if(toggleCounter === "on")
+  {
+    toggleCounter = "off";
+    document.getElementById("pause").innerHTML = "resume"
+  }
+  else
+  {
+    toggleCounter = "on";
+    document.getElementById("pause").innerHTML = "pause"
+  }
+});
 
 setInterval(function() =>{
   if(toggleCounter === "on"){
