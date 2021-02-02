@@ -33,7 +33,7 @@ document.getElementById("pause").addEventListener("click", function() {
   }
 });
 
-setInterval(function() =>{
+setInterval(function(){
   if(toggleCounter === "on"){
     incrementCounter()
   }
