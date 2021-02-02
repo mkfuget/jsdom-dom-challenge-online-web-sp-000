@@ -21,20 +21,20 @@ document.getElementById("minus").addEventListener("click", function() {
   decrementCounter()
 });
 document.getElementById("pause").addEventListener("click", function() {
-  if(toggle === "on")
+  if(toggleCounter === "on")
   {
-    toggle = "off";
+    toggleCounter = "off";
     document.getElementById("pause").innerHTML = "resume"
   }
   else
   {
-    toggle = "on";
+    toggleCounter = "on";
     document.getElementById("pause").innerHTML = "pause"
   }
 });
 
 setInterval(function() =>{
-  if(toggle === "on"){
+  if(toggleCounter === "on"){
     incrementCounter()
   }
 }, 1000);
