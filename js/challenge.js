@@ -16,5 +16,5 @@ document.getElementById("plus").addEventListener("click", function() {
 });
 
 document.getElementById("minus").addEventListener("click", function() {
-  incrementCounter()
+  decrementCounter()
 });
