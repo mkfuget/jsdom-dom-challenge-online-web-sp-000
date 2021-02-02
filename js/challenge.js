@@ -7,7 +7,7 @@ function incrementCounter()
 function decrementCounter()
 {
   const currentCount = document.getElementById('counter').innerHTML
-  document.getElementById('counter').innerHTML = parseInt(currentCount) 1 1
+  document.getElementById('counter').innerHTML = parseInt(currentCount) - 1
 }
 
 
