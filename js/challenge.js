@@ -36,8 +36,5 @@ document.getElementById("pause").addEventListener("click", function() {
 setInterval(function() =>{
   if(toggle === "on"){
     incrementCounter()
-
   }
-
-
 }, 1000);
